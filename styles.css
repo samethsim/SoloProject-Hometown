@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+color 1 - #BCAF90
+color 2 - #B1956B
+color 3 - #584831
+
+green 1 - #526525
+green 2 - #2E3214
+*/
+
+body {
+    margin: 0;
+    /* background-image: url("imgs/bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    background-color: #8ec4ba;
+    background-attachment: fixed;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 20%, rgba(215, 240, 241, 1) 50%, rgb(94 159 222) 100%);
+}
+.content-container {
+    background-color: #5b5c4d;
+    width: fit-content;
+    padding: 10px 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+#section-wrapper{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+   
+
+}
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url("imgs/hero.jpg");
+    background-size: cover;
+    background-position-y: -30px;
+    gap: 20px;
+    width: inherit;
+    height: 340px;
+    border-radius: 10px ;
+}
+
+#hero > h1 {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    color: rgb(238, 232, 232);
+    /* background: linear-gradient(0deg, rgb(21 57 154) 25%, rgba(190, 71, 71, 1) 25%, rgba(190, 71, 71, 1) 75%, rgb(21 57 154) 75%); */
+    font-size: 4em;
+    text-shadow: 0px 2px 0 rgb(61, 60, 60);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8c8f91;
+}
+
+#hero >h2 {
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 0;
+    width: 650px;
+    background-color: rgba(240, 248, 255, 0.74);
+    font-size: 1.5em;
+    color: #020202;
+}
+#activites-section {
+    padding: 20px 0;
+    display: block;
+    border-radius: 10px;
+    background-color: #efdec6;
+    width: inherit;
+    align-items: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thumbnail-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+#guide-card {
+    background-color: #ffffff;
+    /* width: inherit; */
+    display: flex;
+    width: 550px;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 50px 5px 50px 5px;
+    border-bottom: rgb(94, 90, 90) solid 5px;
+}
+#guide-section {
+    padding: 20px 0;
+    width: inherit;
+    display: block;
+    background-color: #efdec6;
+    border-radius: 10px;
+}
+img {
+    width: 150px;
+}
+
+.img-activities {
+    border-radius: 100%;
+    border: solid 4px #526525;
+    width: 150px;
+}
+
+.activity-item {
+    padding: 0 10px;
+}
+#activities-header {
+    padding:10px 0;
+}
+
+#profile {
+    border-radius: 50px 10px 10px 10px;
+}
